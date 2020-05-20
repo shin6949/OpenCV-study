@@ -16,7 +16,7 @@ void onMouse(int event, int x, int y, int flags, void *param) {
         // Refresh Image
         imshow("Image", img);
     }
-        // The Event When Click Mouse Right Button
+    // The Event When Click Mouse Right Button
     else if (event == EVENT_RBUTTONDOWN) {
         Mat &img = *(Mat *) (param);
         // Make Rectangle at The Click Point
